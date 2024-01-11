@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+:root, [data-bs-theme=light] {
+    --bs-mode: #fefefe;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-success-rgb: 255, 134, 82;
+    --bs-warning-rgb: 255, 134, 82;
+  }
+.card {
+    --bs-card-spacer-y: 1.25rem;
+    --bs-card-spacer-x: 1.25rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: var(--bs-gray-900);
+    --bs-card-border-width: 0;
+    --bs-card-border-color: var(--bs-border-color);
+    --bs-card-border-radius: 2rem;
+    --bs-card-inner-border-radius: 2rem;
+    --bs-card-cap-padding-y: 1.25rem;
+    --bs-card-cap-padding-x: 1.25rem;
+    --bs-card-cap-bg: var(--bs-mode);
+    --bs-card-bg: var(--bs-mode);
+    --bs-card-img-overlay-padding: 1.25rem;
+    --bs-card-group-margin: 0.9375rem;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border-radius: var(--bs-card-border-radius);
+}
+.text-center {  
+    text-align: center !important;
+}
+h4{
+  color:white;
+}
+
+.card-header:first-child {
+    border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+}
+.bg-warning {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
+}
+.fill-success {
+    fill: #f64646 !important;
+}
+.card-header{
+    /* background-color: #ed5f5e !important; */
+    background-color: #f64646 !important;
+}
+.col-4{
+  width:33.33333333%;
+}
+.text-success {
+    --bs-text-opacity: 1;
+  color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-unstyled li{
+    color: #7c7a7a;
+    text-align: justify;
+}
+
+.px-3 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.card:hover{
+    /* box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5); */
+}

@@ -1,0 +1,179 @@
+
+/* Variables */
+:root {
+  --background: #06A3DA;
+}
+
+.ui ul {
+  margin: 0px 30px 10px 0px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ui .drop {
+  z-index: -999;
+  opacity: 0;
+  width: 240px;
+  height: 25px;
+  background: rgba(var(--background), 0.9);
+  position: absolute;
+  color: white;
+  bottom: 0;
+  padding: 12px 30px 21px 30px;
+  transition: all ease-in-out 0.3s;
+}
+
+.ui .drop p {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(var(--background), 0.5);
+}
+
+/* UI box styles */
+.ui_box.white {
+  background: #fff;
+  color: #2e2e2e;
+  box-shadow: -1px 0px rgba(0, 0, 0, 0.07);
+}
+
+.ui_box {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  background: #3d3d3d;
+  margin-bottom: 50px;
+  float: left;
+  box-shadow: -1px 0px rgba(255, 255, 255, 0.07);
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.3s, #06A3DA 0.3s;
+}
+
+.ui_box__inner {
+  padding: 30px;
+}
+
+.ui_box__inner span {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.ui_box__inner .progress {
+  width: 100%;
+  margin-top: 10px;
+  height: 6px;
+  background: rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+}
+
+.ui_box__inner .progress_bar {
+  height: 6px;
+  float: left;
+  width: 100%;
+  background: var(--background);
+  animation: bar 2s;
+}
+
+.ui_box__inner h2 {
+  color:#000;
+  font-weight: normal;
+  font-size: 16px;
+  margin: -4px 0px 3px 0px;
+}
+
+.ui_box__inner:hover h2 {
+  color:#fff
+}
+.ui_box__inner p {
+  font-size: 16px;
+  color: rgb(182, 182, 182);
+  clear: left;
+  font-weight: 300;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 2px 0px 0px 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Hover effects */
+.ui_box:hover {
+  background: #3d3d3d;
+  color: #fff;
+  transform: scale(1);
+  position: relative;
+  z-index: 1;
+}
+
+.ui_box:hover > .ui_box__inner p {
+  color: rgba(var(--background), 0.7);
+}
+
+.ui_box:hover .drop {
+  /* bottom: -42px;
+  z-index: -99999999;
+  opacity: 1;
+  background-color: red; */
+  transition-property:bottom,opacity;
+        transition-duration:.3s;
+  bottom:-42px;
+  z-index:-99999999;
+  opacity:1;
+}
+
+.ui_box:hover .drop{
+  background: #06A3DA;
+  width: 100%;
+  height: 17%;
+  display: block;
+}
+
+.ui_box:hover .arrow {
+  color: #000;
+  transform: rotate(765deg);
+}
+
+/* Progress graph styles */
+.ui_box:hover .ui_box__inner .progress .progress_bar,
+.ui_box:hover  .ui_box__inner .progress .progress_bar--two {
+  background: white;
+}
+
+
+@keyframes bar {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 58%;
+  }
+}
+
+/* @keyframes bar{
+  from{width:0px}
+  to{width:58%;}
+}
+
+@keyframes bar2{
+  from{width:0px}
+  to{width:78%;}
+}
+
+@keyframes graph{
+  from{height:0px}
+  to{height:20px}
+}
+@keyframes graph2{
+  from{height:0px}
+  to{height:30px}
+}
+@keyframes graph3{
+  from{height:0px}
+  to{height:24px}
+}
+@keyframes graph4{
+  from{height:0px}
+  to{height:13px}
+} */

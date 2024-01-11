@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.box{
+    position: relative;
+    top: 50%;  left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;  height: 300px;
+  
+}
+.box .front{
+    position: relative;
+    width: 100%;  height: 100%;
+    background: #262626;
+    backface-visibility: hidden;
+    transform: perspective(1000px) rotateY(0deg);
+    transition: 1s;
+}
+.box:hover .front{
+    transform: perspective(1000px) rotateY(180deg);
+}
+.box .back{
+    position: absolute;
+    top: 0;   left: 0;
+    width: 100%;  height: 100%;
+    background: #06A3DA;
+    backface-visibility: hidden;
+    transform: perspective(1000px) rotateY(-180deg);
+    transition: 1s;
+}
+.box:hover .back{
+    transform: perspective(1000px) rotateY(0deg);
+}
+
+/**********  front  **************/
+.box .front .center{
+    position: absolute;
+    top: 50%;  left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.box .front .center svg{
+    width: 50px;  height: 50px;
+}
+.box .front .center h1{
+    font-size: 25px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+/**********  back  **************/
+.box .back .row{
+    position: relative;
+    width: 100%;  height: 100%;
+}
+
+.box .back .row svg{
+    width: 50px;  height: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+.box .back .row h1{
+    font-size: 25px;
+    color: #262626;
+    white-space: nowrap;
+    display: inline-block;
+}
+.box .back .row span{
+    position: relative;
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 100px 0 0 35px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.box .back .row span::before{
+   content: '';
+   font-family: 'fontAwesome';
+   position: absolute;
+   top: 2px; bottom: 2px;   left: 2px;
+   color: #fff;
+   font-size: 20px;
+}
+

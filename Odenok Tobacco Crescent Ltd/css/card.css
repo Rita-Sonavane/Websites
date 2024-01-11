@@ -1,0 +1,228 @@
+
+.customStyle-card-dynamic{
+  @extend .customStyle-Margin;
+  width: 25rem;
+  height: 20rem;
+  padding: 1rem;
+  font-size: 3.25rem;
+  border: none;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  background-color: transparent;
+  color: #181818;
+  border-color: transparent;
+  border-size: 3px;
+  border-style: solid;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.customStyle-card-dynamic:hover{
+  /* background-color: #181818 ; */
+  background-color: #091E3E ;
+  color: white;
+  border-color: #faa499;
+}
+
+.customStyle-card-dynamic:hover h5{
+  color: white;
+}
+
+
+.customStyle-card-dynamic:hover i{
+  /* background-color: #faa499; */
+  background-color: #06A3DA;
+  /* background-image: linear-gradient(319deg, #faa499 0%, #f7dd85 37%, #ffc55c     100%); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.3s;
+
+}
+
+.card-title{
+  text-align: center
+}
+
+.customStyle-card-title-dynamic{
+  @extend .customStyle-Margin;
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+}
+
+.customStyle-card-text-dynamic{
+  font-size: 1.2rem;
+  text-align: center;
+  text-align: justify;
+}
+.customStyle-card-body-dynamic{
+  padding: 0.25rem;;
+}
+
+
+.customStyle-Margin{
+  margin-right: auto!important;
+  margin-left: auto!important;
+}
+
+
+/* History And Evolotion */
+.seperator{
+  margin-bottom: 30px;
+  width:35px;
+  height:3px;
+  background:#777;
+  border:none;
+}
+.title{
+  text-align: center;
+  
+.row{
+    padding: 0px 0px 0px;
+  }
+  
+  h1{
+    text-transform: uppercase;
+  }
+  
+  .seperator{
+    margin: 0 auto 10px;
+  }
+}
+.item {
+  position: relative;
+  margin-bottom: 30px;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  .item-in {
+    background: #fff;
+    padding: 10px;
+    position: relative;
+    
+    &:hover:before {
+      width: 100%;
+    }
+   
+    &::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 0%;
+    background: #333333;
+    right: 0px;
+    -webkit-transition: width 0.4s;
+    transition: width 0.4s;
+    }
+  }
+}
+.item{
+    
+h4{
+      font-size: 18px;
+      margin-top: 25px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    p{
+      font-size: 12px;
+    }
+    a{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #666666;
+      margin-top: 10px;
+
+      i {
+        opacity: 0;
+        padding-left: 0px;
+        transition: 0.4s;
+        font-size: 24px;
+        display: inline-block;
+        top: 5px;
+        position: relative;
+       }
+      
+      &:hover {
+        text-decoration:none;
+        i {
+          padding-left: 10px;
+          opacity: 1;
+          font-weight: 300;
+          }
+        }
+      }
+    }
+.icon {
+  position:absolute;
+  top: 5px;
+  left: -40px;
+  width: 45px;
+  cursor:pointer;
+    a{
+      font-family: 'Merriweather', serif;
+      font-size: 14px;
+      font-weight:400;
+      color: #999;
+      text-transform:none;
+    }
+    svg{
+      width:24px;
+      height:24px;
+      float:left;
+    }
+    .icon-topic{
+      opacity: 0;
+      padding-left: 0px;
+      transition: 0.4s;
+      display: inline-block;
+      top: 0px;
+      position: relative;
+    }
+    &:hover .icon-topic{
+      opacity: 1;
+      padding-left: 10px;
+    }
+  }
+@media only screen and (max-width : 768px) {
+  .item .icon{position: relative; top: 0; left:0;}
+}
+/* End */
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .customStyle-card-dynamic{
+    @extend .customStyle-Margin;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+    font-size: 3.25rem;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    background-color: transparent;
+    color: #181818;
+    border-color: transparent;
+    border-size: 3px;
+    border-style: solid;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .customStyle-card-text-dynamic{
+    font-size: 1rem;
+    text-align: center;
+    text-align: justify;
+  }
+
+  .customStyle-card-title-dynamic{
+    @extend .customStyle-Margin;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+}

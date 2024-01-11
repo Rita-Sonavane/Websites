@@ -1,0 +1,42 @@
+.product-box {
+    height:320px;
+    width:300px;
+    margin: 10% auto;  
+    border-radius:0px 100px 0px 0px;
+    overflow:hidden;
+    background-color:#fff;
+    transition:0.5s;
+    -webkit-box-shadow: 0px 0px 22px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 22px -9px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 22px -9px rgba(0,0,0,0.75);
+  }
+  #box-header {
+    background-color:#06A3DA;
+    height:150px;
+    border-radius:0px 0px 50% 50%;
+    transition:0.5s;
+  }
+  #box-header h3 {
+    font-size:55px;
+    padding-top:40px;
+    color:#000;
+  }
+  #box-body {
+    margin-top:40px;
+    font-size:30px;
+    font-weight:bold;
+    
+  }
+  .product-box:hover > #box-header{
+    background-color:#000;
+    color:#fff;
+  }
+
+  .product-box:hover > #box-header h3{
+    color:#fff;
+  }
+  .product-box:hover {
+    background-color:#EEF9FF !important;
+    color:#000;
+    box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
+  }

@@ -1,0 +1,356 @@
+/* https://www.youtube.com/watch?v=O18K5plta8w */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+
+/* ----------------------- Districts of Maharashtra ------------------------------ */
+
+.mumbai {
+    display: none;
+ }
+
+ .pune {
+    display: none;
+ }
+
+ .aurangabad {
+    display: none;
+ }
+
+ .nashik {
+    display: none;
+ }
+
+ .nagpur {
+    display: none;
+ }
+
+ /* ----------------------- Districts of Gujrat ------------------------------ */
+ 
+ .ahmedabad{
+    display: none;
+ }
+
+ .baroda{
+    display: none;
+ }
+ .vapi{
+    display: none;
+ }
+ .surat{
+    display: none;
+ }
+ .gandhinagaar{
+    display: none;
+ }
+ .rajkot{
+    display: none;
+ }
+ .jamnagar{
+    display: none;
+ }
+
+ /* ------------------------- Districts of UP ------------------------------ */
+
+ .lukhnow{
+    display: none;
+ }
+ .kanpur{
+    display: none;
+ }
+ .meerut{
+    display: none;
+ }
+ .banaras{
+    display: none;
+ }
+ .gaziabad{
+    display: none;
+ }
+ .agra{
+    display: none;
+ }
+ .muzzafarnagar{
+    display: none;
+ }
+ .barely{
+    display: none;
+ }
+ .aligarh{
+    display: none;
+ }
+ .pragraj{
+    display: none;
+ }
+ 
+
+ /* ------------------------- Districts of Rajasthan ------------------------------ */
+
+ .jaipur{
+    display: none;
+ }
+ .udaipur{
+    display: none;
+ }
+ .jodhpur{
+    display: none;
+ }
+ .bikaner{
+    display: none;
+ }
+ .kotta{
+    display: none;
+ }
+ .ajmer{
+    display: none;
+ }
+ .alwar{
+    display: none;
+ }
+
+
+ /* ------------------------- Districts of MP ------------------------------ */
+ 
+ .indore{
+    display: none;
+ }
+ .bhopal{
+    display: none;
+ }
+ .gwalior{
+    display: none;
+ }
+ .jabalpur{
+    display: none;
+ }
+
+ /* ------------------------- Districts of Panjab ------------------------------> */
+
+ .amritsar{
+    display: none;
+ }
+ .jalandhar{
+    display: none;
+ }
+ .ludhiana{
+    display: none;
+ }
+ .bhatinda{
+    display: none;
+ }
+ .chandigarh{
+    display: none;
+ }
+ .patiyala{
+    display: none;
+ }
+
+ /* ------------------------- Districts of Delhi ------------------------------ */
+
+
+/* ------------------------- Districts of Haryana ------------------------------*/
+
+.faridabad{
+    display: none;
+}
+.panipat{
+    display: none;
+}
+.ambala{
+    display: none;
+}
+.gurugram{
+    display: none;
+}
+
+/* ------------------------- Districts of Karnataka ------------------------------- */
+
+.banglore{
+    display: none;
+}
+.manglore{
+    display: none;
+}
+.hubli{
+    display: none;
+}
+.mysore{
+    display: none;
+}
+.kalburgi{
+    display: none;
+}
+.udpi{
+    display: none;
+}
+
+/* ------------------------- Districts of Tamilnadu ------------------------------- */
+
+.chennai{
+    display: none;
+}
+.coimbtore{
+    display: none;
+}
+.madurai{
+    display: none;
+}
+.trichy{
+    display: none;
+}
+.salem{
+    display: none;
+}
+.vellore{
+    display: none;
+}
+.harur{
+    display: none;
+}
+.karur{
+    display: none;
+}
+.pondicherry{
+    display: none;
+}
+.terunelvalli{
+    display: none;
+}
+
+/* ------------------------- Districts of kerla ------------------------------- */
+
+/* ------------------------- Districts of Ap -------------------------------> */
+
+.vijaywada{
+    display: none;
+}
+.vizag{
+    display: none;
+}
+.nellore{
+    display: none;
+}
+.guntur{
+    display: none;
+}
+
+/* ------------------------- Districts of Telangana ------------------------------- */
+
+.karimnagar{
+    display: none;
+}
+.hyderabad{
+    display: none;
+}
+.wanrangal{
+    display: none;
+}
+
+/* ------------------------- Districts of Odissa ------------------------------- */
+
+.bhubhaneshwar{
+    display: none;
+}
+.kuttak{
+    display: none;
+}
+.raulkilla{
+    display: none;
+}
+.barhanpur{
+    display: none;
+}
+.talcher{
+    display: none;
+}
+
+/* ------------------------- Districts of Bihar--------------------------------- */
+.patna{
+    display: none;
+}
+.muzzafarnagarb{
+    display: none;
+}
+
+/* ------------------------- West Bengal--------------------------------- */
+.kolkata{
+    display: none;
+}
+
+
+.maps {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .card {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    display: none;
+  }
+  
+  .content {
+    width: 100%;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    display: grid;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.582);
+    color: #fff;
+    transform: translateY(100%);
+    transition: all 0.35s ease;
+    /* position: absolute; 
+    bottom: 0; 
+   */
+  }
+  .box_main:hover .content {
+    transform: translateY(0);
+  }
+
+  .box_main:hover .card { 
+    display: block;
+  }
+
+
+ h3{
+     font-size: 25px;
+ }
+
+ .captionStore{
+    padding: 0;
+    font-size: 20px;
+ }
+
+ 
+/* 
+.box{
+    width: 100%;
+    background-color: #ffffff;
+    height: auto;
+    padding: 10px;
+    box-shadow: 0px 0 30px 10px #f0f0f0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box:hover{
+    box-shadow: 0 0  20px 0px rgba(0,0,0,0.5);
+}
+
+.layer{
+    display: none; 
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    left: 33%;
+    top: 33%;
+} 
+
+.box:hover .layer{
+    display: block; 
+}
+
+.box:hover{
+    border: 2px solid #f87444;
+    /* opacity: 0.5; 
+} */

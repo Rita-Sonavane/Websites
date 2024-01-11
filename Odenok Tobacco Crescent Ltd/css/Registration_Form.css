@@ -1,0 +1,268 @@
+   /*form styles*/
+   #msform {
+    width: 100%;
+    margin: 5% auto;
+    /* text-align: center; */
+    position: relative;
+    background: white;
+    z-index: 1;
+    margin-top: 8%;
+}
+
+#msform:hover{
+    box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: -40px 0;
+    position: relative;
+    border: 1px solid rgb(134, 133, 133);
+    border-radius: 1%;
+}
+
+
+.heading{
+    text-align: center;
+    margin-top: 4%;
+    color: #213661;
+}
+
+
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+/*inputs*/
+#msform input,
+#msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+/*buttons*/
+#msform .action-button {
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    /* background: #FF512F; */
+    background: #2641C2;
+    /* background: -webkit-linear-gradient(to right, #F09819, #FF512F);
+        background: linear-gradient(to right, #F09819, #FF512F); */
+    background: -webkit-linear-gradient(to right, #01BFFD, #2641C2);
+    background: linear-gradient(-45deg, #01BFFD 0%, #2641C2 100%) no-repeat 0 0 / 200%;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #2641C2;
+
+}
+
+.header_form {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.loader {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 25%;
+    display: none;
+    /* position: absolute;
+    z-index: 10; */
+}
+
+/* .loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 45%;
+    display: none;
+    position: absolute;
+    z-index: 10;
+} */
+
+.loader-circle:before {
+    content: "";
+    display: block;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 8px solid #1e293b;
+    border-color: #1e293b transparent #1e293b transparent;
+    animation: loader 1.2s linear infinite;
+}
+
+.loader-text {
+    /* width: 200px; */
+    color: #1e293b;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-top: 16px; */
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.error {
+    color: #ff3860;
+    font-size: 16px;
+}
+
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+
+    /*form styles*/
+    #msform {
+        width: 95%;
+        margin: 5% auto;
+        /* text-align: center; */
+        position: relative;
+        background: white;
+        z-index: 1;
+        margin-top: 20%;
+        /* margin-left: 3%; */
+    }
+
+
+    #msform fieldset {
+        background: white;
+        border: 0 none;
+        padding: 20px 10px;
+        box-sizing: border-box;
+        width: 100%;
+        margin: -40px 0;
+        position: relative;
+        border: 1px solid rgb(134, 133, 133);
+        border-radius: 1%;
+    }
+
+    .heading {
+        text-align: center;
+        margin-top: 4%;
+        color: #213661;
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*form styles*/
+    #msform {
+        width: 80%;
+        margin: 5% auto;
+        /* text-align: center; */
+        position: relative;
+        background: white;
+        z-index: 1;
+        margin-top: 20%;
+
+    }
+
+
+    #msform fieldset {
+        background: white;
+        border: 0 none;
+        padding: 20px 30px;
+        box-sizing: border-box;
+        width: 100%;
+        margin: -40px 0;
+        position: relative;
+        border: 1px solid rgb(134, 133, 133);
+        border-radius: 1%;
+    }
+
+    .heading {
+        text-align: center;
+        margin-top: 4%;
+        color: #213661;
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    /*form styles*/
+    #msform {
+        width: 55%;
+        margin: 5% auto;
+        /* text-align: center; */
+        position: relative;
+        background: white;
+        z-index: 1;
+        margin-top: 10%;
+
+    }
+
+
+    #msform fieldset {
+        background: white;
+        border: 0 none;
+        padding: 20px 30px;
+        box-sizing: border-box;
+        width: 100%;
+        margin: -40px 0;
+        position: relative;
+        border: 1px solid rgb(134, 133, 133);
+        border-radius: 1%;
+    }
+
+    .heading {
+        text-align: center;
+        margin-top: 4%;
+        color: #213661;
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,31 @@
+
+
+/* style social link */
+ .fab {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #000;
+  margin: 0 0px;
+  cursor: pointer;
+  transition: transform .5s;
+  }
+  
+  .fab:hover {
+  background: #000;
+  color: #ffff;
+  transform: translateY(-7px);
+}
+
+/* .card{
+  width: 250px;
+} */
+.card img{
+  height: 60px;
+  width: 60px;
+}
+
+.card:hover{
+  box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
+}
+

@@ -1,0 +1,480 @@
+
+#card-info{
+	width:700px;
+	height:fit-content!important;
+	padding: 35px 35px 35px 35px ;
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 6px 61px 6px rgb(0 0 0 / 10%);
+	transition: transform ease 300ms;
+	overflow: hidden;
+}
+#card-info:hover{
+	/* box-shadow: 0px 25px 68px 6px rgb(255 33 63 / 50%); */
+    box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
+	background:#06A3DA;
+	transform: translate(0, -10px);
+}
+
+    #my-icon {
+	color:#06A3DA;
+	font-size:56px;
+	line-height: 56px;
+}
+
+#icon-2{
+   
+    display: none
+}
+#card-info:hover #icon-2{
+    display: block;
+}
+ #card-info:hover #my-icon{
+     display: none;
+content: "\f117";
+	
+}
+
+#card-info:hover #main-title, #sub-title{
+    color: white;
+}
+#card-info:hover #sub-title{
+    color: white;
+}
+#main-title{
+	margin: 30px 0px;
+	font-family: "Nunito", Sans-serif;
+    font-weight: bold;
+    line-height: 28px;
+    font-weight: 700;
+    font-style: normal;
+    color: #333;
+    font-size: 20px;
+
+}
+#sub-title{
+	font-family: "Open Sans";
+    line-height: 26px;
+    font-style: normal;
+    color: #4b4b4b;
+    font-size: 16px;
+    height: 160px!important;
+    ;
+}
+
+.bExperience-container {
+    position: relative;
+    width: 85%;
+    display: inline-block;
+    font-family: Arial, 'Font Awesome 5 Free';
+    margin-top: -70px;
+}
+
+.fa-caret-down {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+
+
+.bExperience-options {
+    position: relative;
+    /* position: absolute; */
+    /* top: 100%; */
+    left: 3%;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.bExperience-options {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 9;
+
+}
+
+.bExperience-options:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+.criteria-container {
+    position: relative;
+    width: 85%;
+    display: inline-block;
+    font-family: Arial, 'Font Awesome 5 Free';
+}
+
+.plus2 {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+
+.Criteria-options {
+    position: relative;
+    /* position: absolute; */
+    top: 100%;
+    left: 3%;
+    width: 118%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+.Criteria-options {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 9;
+}
+
+.Criteria-options:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+.benifits-container {
+    position: relative;
+    width: 85%;
+    display: inline-block;
+    font-family: Arial, 'Font Awesome 5 Free';
+}
+
+.plus3 {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+
+.benifits-options {
+    position: relative;
+    /* position: absolute; */
+    top: 100%;
+    left: 3%;
+    width: 118%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+.benifits-options {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 9;
+}
+
+.benifits-options:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+
+.finalcial-container {
+    position: relative;
+    width: 85%;
+    display: inline-block;
+    font-family: Arial, 'Font Awesome 5 Free';
+}
+
+.plus4 {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+
+.finalcial-options {
+    position: relative;
+    /* position: absolute; */
+    top: 100%;
+    left: 3%;
+    width: 118%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+.finalcial-options {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 9;
+}
+
+.finalcial-options:hover {
+    background-color: #f1f1f1;
+}
+
+
+button:hover {
+    /* background: linear-gradient(-45deg, #01BFFD 0%, #2641C2 100%) no-repeat 0 0 / 200%; */
+    background-color: #000;
+    color: #fff;
+    /* box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5); */
+}
+
+
+
+
+ /* For Tablet View */
+@media screen and (max-width: 768px) {
+    #card-info{
+        width:325px;
+    }
+    #card-info{
+        padding: 15px 20px 20px 20px !important;
+       height: 310px;
+        overflow: hidden;
+}
+}
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+
+    .bExperience-options {
+        position: relative;
+        /* position: absolute; */
+        top: 100%;
+        left: 3%;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        display: none;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    }
+
+    .benifits-options {
+        position: relative;
+        /* position: absolute; */
+        top: 100%;
+        left: 3%;
+        width: 120%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        display: none;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    }
+
+    .Criteria-options {
+        position: relative;
+        /* position: absolute; */
+        top: 100%;
+        left: 3%;
+        width: 120%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        display: none;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    }
+
+    .finalcial-options {
+        position: relative;
+        /* position: absolute; */
+        top: 100%;
+        left: 3%;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        display: none;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    }
+
+    .map {
+        height: 300px;
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .heading {
+        text-align: center;
+        margin-top: 4%;
+        color: #213661;
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .bExperience-options {
+        position: relative;
+        /* position: absolute; */
+        top: 100%;
+        left: 3%;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        display: none;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    }
+
+    .benifits-options {
+        position: relative;
+        /* position: absolute; */
+        top: 100%;
+        left: 3%;
+        width: 120%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        display: none;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    }
+
+    .Criteria-options {
+        position: relative;
+        /* position: absolute; */
+        top: 100%;
+        left: 3%;
+        width: 120%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        display: none;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    }
+
+    .finalcial-options {
+        position: relative;
+        /* position: absolute; */
+        top: 100%;
+        left: 3%;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        display: none;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    }
+
+    .map {
+        height: 300px;
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .heading {
+        text-align: center;
+        margin-top: 4%;
+        color: #213661;
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    .bExperience-options {
+        position: relative;
+        /* position: absolute; */
+        top: 100%;
+        left: 3%;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        display: none;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    }
+
+    .benifits-options {
+        position: relative;
+        /* position: absolute; */
+        top: 100%;
+        left: 3%;
+        width: 120%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        display: none;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    }
+
+    .Criteria-options {
+        position: relative;
+        /* position: absolute; */
+        top: 100%;
+        left: 3%;
+        width: 120%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        display: none;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    }
+
+    .finalcial-options {
+        position: relative;
+        /* position: absolute; */
+        top: 100%;
+        left: 3%;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        display: none;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    }
+
+    .map {
+        height: 300px;
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .heading {
+        text-align: center;
+        margin-top: 4%;
+        color: #213661;
+        font-size: 40px;
+    }
+}
