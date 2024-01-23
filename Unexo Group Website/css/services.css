@@ -1,0 +1,283 @@
+.flexcontainer {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 2% 0 2.7%;
+  margin-bottom: 5rem;
+}
+.flexitem {
+  background-color: #cccccc;
+  display: inline-block;
+  overflow: visible;
+  position: relative;
+  flex: 1 1;
+}
+.flexitem:nth-child(1) {
+  flex-basis: 50%;
+  height: 500px;
+}
+.flexitem:nth-child(2) {
+  flex-basis: 50%;
+}
+#image-x {
+  background-image: url("https://assets-global.website-files.com/602a97fb7ff89c083c49cc06/60b3bd1ffcff2841d2567f36_shutterstock_1922409374%20(1).jpg");
+  background-size: cover;
+  background-position: right;
+  border-radius: 10px 0 0 10px;
+}
+#image-x2 {
+  background-image: url("https://mexico.unir.net/wp-content/uploads/sites/6/2022/12/2301_derecho_ficha_1920x1080.jpg");
+  background-size: cover;
+  background-position: right;
+  border-radius: 10px 0 0 10px;
+}
+#image-x3 {
+  background-image: url("https://miro.medium.com/max/1127/1*6aqC-IeggyjRuqHWrkVcuQ.png");
+  background-size: cover;
+  background-position: right;
+  border-radius: 10px 0 0 10px;
+}
+#image-x4 {
+  background-image: url("https://wallpaperaccess.com/full/4597125.png");
+  background-size: cover;
+  background-position: right;
+  border-radius: 10px 0 0 10px;
+}
+#image-x5 {
+  background-image: url("https://m2w4k5m5.stackpathcdn.com/wp-content/uploads/shutterstock_126022781.jpg");
+  background-size: cover;
+  background-position: right;
+  border-radius: 10px 0 0 10px;
+}
+#image-x6 {
+  background-image: url("https://www.mattsenkumar.com/wp-content/uploads/2023/03/imgpsh_fullsize_anim-87.jpeg");
+  background-size: cover;
+  background-position: right;
+  border-radius: 10px 0 0 10px;
+}
+#image-x7 {
+  background-image: url("https://cdn.create.vista.com/api/media/small/205608046/stock-photo-double-exposure-businessman-working-foreman-control-loading-containers-box-cargo");
+  background-size: cover;
+  background-position: right;
+  border-radius: 10px 0 0 10px;
+}
+#image-x8 {
+  background-image: url("https://static.therealdeal.com/wp-content/uploads/2023/09/Chicagos-Home-Price-Growth-More-Than-Double-National-Average_FT-Thumbnail-700x496.jpg");
+  background-size: cover;
+  background-position: right;
+  border-radius: 10px 0 0 10px;
+}
+#image-x9 {
+  background-image: url("https://media.istockphoto.com/id/155432566/photo/hands-clasped-isolated.jpg?s=612x612&w=0&k=20&c=DeZy6VKZevK_qDh7QZ8FwIvezF7OAJDLNESfTL1tmw4=");
+  background-size: cover;
+  background-position: right;
+  border-radius: 10px 0 0 10px;
+}
+#image-x10 {
+  background-image: url("https://www.datarobot.com/wp-content/uploads/2022/02/DataRobot_Snowflake_Healthcare_Background_V2.0.png");
+  background-size: cover;
+  background-position: right;
+  border-radius: 10px 0 0 10px;
+}
+#content-x {
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+}
+.wrapper {
+  text-align: justify;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  padding: 0px 0px;
+  margin: 13%;
+}
+.wrapper p{
+  font-size: 13px;
+}
+
+
+
+@media screen and (max-width: 680px) {
+  .flexcontainer {
+    flex-direction: row;
+  }
+  #content-x {
+      flex: auto;
+      flex-direction: column;
+      border-radius: 0px 0px 10px 10px;
+  }
+  #image-x {
+      flex-direction: column;
+      height: 200px;
+      border-radius: 10px 10px 0 0;
+  }
+}
+@media screen and (max-width: 880px) {
+  .flexcontainer {
+    flex-direction: row;
+  }
+  #content-x {
+      flex: auto;
+      flex-direction: column;
+      height: 500px;
+      border-radius: 0px 0px 10px 10px;
+  }
+  #image-x {
+      flex-direction: column;
+      height: 200px;
+      border-radius: 10px 10px 0 0;
+  }
+  #image-x2 {
+      flex-direction: column;
+      height: 200px;
+      border-radius: 10px 10px 0 0;
+  }
+
+#image-x3 {
+      flex-direction: column;
+      height: 200px;
+      border-radius: 10px 10px 0 0;
+  }
+  #image-x4 {
+    flex-direction: column;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+#image-x5{
+    flex-direction: column;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+#image-x6 {
+    flex-direction: column;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+#image-x7 {
+  flex-direction: column;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+#image-x8 {
+  flex-direction: column;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+#image-x9 {
+  flex-direction: column;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+#image-x10 {
+  flex-direction: column;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+}
+/* carousel buttons if want color besides transparent*/
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+.services_btn {
+  position: relative;
+  background: linear-gradient(
+      277deg,
+      rgba(213, 213, 213, 0.1) 0%,
+      rgba(213, 213, 213, 0.02) 50%,
+      rgba(42, 42, 42, 0.02) 50%,
+      rgba(42, 42, 42, 0.2) 100%
+    ),
+    linear-gradient(
+      295deg,
+      rgba(73, 73, 73, 0.3) 0%,
+      rgba(73, 73, 73, 0.1) 50%,
+      rgba(229, 229, 229, 0.1) 50%,
+      rgba(229, 229, 229, 0.03) 100%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(77, 77, 77, 0.1) 0%,
+      rgba(77, 77, 77, 0.1) 50%,
+      rgba(123, 123, 123, 0.1) 50%,
+      rgba(123, 123, 123, 0.1) 100%
+    ),
+    linear-gradient(
+      54deg,
+      rgba(51, 51, 51, 0.3) 0%,
+      rgba(51, 51, 51, 0.1) 50%,
+      rgba(29, 29, 29, 0.2) 50%,
+      rgba(29, 29, 29, 0.03) 100%
+    ),
+    linear-gradient(
+      170deg,
+      rgba(9, 9, 9, 0.02) 0%,
+      rgba(9, 9, 9, 0.02) 50%,
+      rgba(243, 243, 243, 0.02) 50%,
+      rgba(243, 243, 243, 0.02) 100%
+    ),
+    linear-gradient(
+      264deg,
+      rgba(214, 214, 214, 0.01) 0%,
+      rgba(214, 214, 214, 0.01) 50%,
+      rgba(153, 153, 153, 0.01) 50%,
+      rgba(153, 153, 153, 0.01) 100%
+    ),
+    linear-gradient(90deg, rgb(99, 48, 222), rgb(76, 212, 233));
+  padding: 0.6em 1.5em;
+  border: 1px solid black;
+  border-radius: 25px 7px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.7s ease;
+}
+
+.services_btn:after {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  background: linear-gradient(45deg, rgb(46, 94, 149), rgb(59, 131, 209), rgb(67, 91, 142));
+  width: 150px;
+  height: 30px;
+  content: '';
+  transform: translate(-50%);
+  border-radius: 25px 7px;
+  filter: blur(20px);
+  z-index: -1;
+}
+
+.services_btn:hover {
+  border-radius: 7px 25px;
+  background: linear-gradient(
+    45deg,
+    rgb(239, 7, 129) 0%,
+    rgb(239, 7, 129) 6%,
+    rgb(208, 10, 112) 6%,
+    rgb(208, 10, 112) 25%,
+    rgb(177, 13, 96) 25%,
+    rgb(177, 13, 96) 40%,
+    rgb(147, 16, 79) 40%,
+    rgb(147, 16, 79) 45%,
+    rgb(116, 19, 62) 45%,
+    rgb(116, 19, 62) 53%,
+    rgb(85, 22, 46) 53%,
+    rgb(85, 22, 46) 66%,
+    rgb(54, 25, 29) 66%,
+    rgb(54, 25, 29) 100%
+  );
+  letter-spacing: 0.2em;
+  border: 1px solid white;
+}

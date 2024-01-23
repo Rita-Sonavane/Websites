@@ -1,0 +1,256 @@
+/* body {
+    background-color: #1d1b1c;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+} */
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  } */
+  
+  .main-container {
+    padding: 30px;
+  }
+  
+  /* HEADING */
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .heading__title {
+    font-weight: 600;
+  }
+  
+  .heading__credits {
+    margin: 10px 0px;
+    color: #888888;
+    font-size: 25px;
+    transition: all 0.5s;
+  }
+  
+  .heading__link {
+    text-decoration: none;
+  }
+  
+  .heading__credits .heading__link {
+    color: inherit;
+  }
+  
+  /* CARDS */
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .cards .card {
+    /* margin: 20px; */
+    padding: 20px;
+    width: 100%;
+    min-height: 200px;
+    display: grid;
+    /* grid-template-rows: 20px 50px 1fr 50px; */
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+  
+  .cards .card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+  }
+  
+  .card__link,
+  .card__exit,
+  .card__icon {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .card__link::after {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 0.5s;
+  }
+  
+  .card__link:hover::after {
+    width: 100%;
+  }
+  
+  .card__exit {
+    grid-row: 1/2;
+    justify-self: end;
+  }
+  
+  .card__icon {
+    grid-row: 2/3;
+    font-size: 30px;
+  }
+  
+  .card__title {
+    grid-row: 3/4;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  .card__apply {
+    grid-row: 4/5;
+    align-self: center;
+  }
+  
+  /* CARD BACKGROUNDS */
+  
+  .card-1 {
+    background: radial-gradient(#1fe4f5, #3fbafe);
+  }
+  
+  .card-2 {
+    background: radial-gradient(#fbc1cc, #fa99b2);
+  }
+  
+  .card-3 {
+    background: radial-gradient(#76b2fe, #b69efe);
+  }
+  
+  .card-4 {
+    background: radial-gradient(#60efbc, #58d5c9);
+  }
+  
+  .card-5 {
+    background: radial-gradient(#f588d8, #c0a3e5);
+  }
+  
+  /* RESPONSIVE */
+  
+  @media (max-width: 1600px) {
+    .cards {
+      justify-content: center;
+    }
+  }
+  
+
+
+
+
+
+
+.inovation h1, .inovation h2, .inovation a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.inovation h1,.inovation  h2 {
+    margin-top: 0;
+    letter-spacing: 0.2em;
+}
+.inovation h1 {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.inovation h2 {
+    color: #fff;
+    font-size: 1.2em;
+}
+.inovation a {
+    text-decoration: none;
+    color: #b4a677;
+}
+.inovation a:hover {
+    color: #d6c385;
+}
+.inovation ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+.container {
+    width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.post + .post {
+    margin-top: 2rem;
+}
+.post__excerpt {
+    position: relative;
+}
+.card {
+    background-color: #17224D;
+    padding: 2rem;
+}
+ .card:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #17224D;
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: -10px;
+}
+.card__header {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+}
+.card__date {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+@media (min-width: 768px) {
+    /* .container {
+        width: 60%;
+   } */
+    .post {
+        display: flex;
+        align-items: center;
+   }
+    .post__excerpt {
+        width: 45%;
+   }
+    .post__image {
+        width: 55%;
+   }
+    .post:nth-child(odd) .post__excerpt {
+        margin-right: -4rem;
+   }
+    .post:nth-child(odd) .card:before {
+        right: -10px;
+   }
+    .post:nth-child(odd) .card__header, .post:nth-child(odd) .card__cta {
+        text-align: right;
+   }
+    .post:nth-child(even) .post__excerpt {
+        order: 1;
+        margin-left: -4rem;
+   }
+    .post:nth-child(even) .card:before {
+        left: -10px;
+   }
+    .card:before {
+        bottom: auto;
+   }
+}
+
+
+

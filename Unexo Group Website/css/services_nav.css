@@ -1,0 +1,70 @@
+:root {
+    --font-family:'Poppins', sans-serif;
+    --main-color:#0b178f;
+    --text-color:#1c2844;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #17224D;
+}
+.services-content{
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); /* تحديد تخطيط الأعمدة باستخدام Grid وتكرار تلك الأعمدة وتحديد الحد الأدنى والأقصى لعرض كل عنصر */
+    /* gap: 1.5rem; */
+    margin-top: 2rem;
+}
+
+.services-content .box {
+    text-align: center;
+    border: 2px solid var(--text-color);
+    padding: 20px;
+    border-radius: 0 2rem 0 0;
+    box-shadow: 10px 11px 11px rgb(14 55 54 /25%);
+  
+}
+
+.services-content .box p{
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.services-content .box svg {
+    padding: 10px;
+    color: #fff;
+    font-size: 24px;
+    background: var(--text-color);
+    border-radius: 4px;
+}
+
+.services-content .box h2 {
+    font-size: 1.1rem;
+    margin: 1rem 0 0 0.5rem;
+    transition: 0.5s ease;
+
+}
+
+.services-content .box:hover {
+    background: var(--text-color);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.services-content .box:hover svg {
+    background: #fff;
+    color: var(--text-color);
+    transition: 0.2s;
+}
+
+.services-content .box:hover h2{
+    color: #fff;
+}

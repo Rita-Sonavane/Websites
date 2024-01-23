@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Services</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- <meta content="" name="keywords">
+    <meta content="" name="description"> -->
+
+    <!-- Favicon -->
+    <link href="img/u2.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/services_nav.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <!-- <a href="" class="navbar-brand m-0 p-0">
+                    <h1 class="text-primary m-0">Plumberz</h1>
+                </a> -->
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2"></i>
+                    <p class="m-0">info@unexogroup.com</p>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                    <p class="m-0">16, Shaw Rd no 02-04 Kin Building, Singapore – 367954</p>
+                </div>
+                <!-- <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2"></i>
+                    <p class="m-0">info@unexogroup.com</p>
+                </div> -->
+                <!-- <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-light">
+
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0"> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <div class="brand-and-icon">
+                <a href="index.html" class="navbar-brand p-0">
+                    <!-- <img src="img/ulogo1.png" alt="" class="m-0 logo"> -->
+                    <h1 class="text-primary m-0"><img src="img/ulogo1.png" alt="" class="m-0 logo"></h1>
+                </a>
+                <button type="button" class="navbar-toggler text-end">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="index.html" class="menu-link">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="menu-link">
+                                About
+                                <span class="drop-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <div class="sub-menu">
+                                <!-- item -->
+                                <div class="sub-menu-item">
+                                    <h4>Company History</h4>
+                                    <ul>
+                                        <li><a href="history&evolution.html">History and
+                                                Evolution</a></li>
+                                    </ul>
+
+                                    <h4>Company Policies</h4>
+                                    <ul>
+                                        <li><a href="tearms&condition.html">Policies and Guidelines</a></li>
+                                    </ul>
+
+                                </div>
+                                <!-- end of item -->
+                                <!-- item -->
+                                <div class="sub-menu-item">
+                                    <h4>Corporate Principles</h4>
+                                    <ul>
+                                        <li><a href="visson&mission.html">Vision & Mission</a></li>
+                                        <li><a href="core_values.html">Core Values</a></li>
+                                        <li><a href="corporate_statergies.html">Motto & Purpose</a></li>
+                                        <!-- <li><a href="corporate_governance.html">Purpose</a></li> -->
+                                        <li><a href="codeofconduct.html">Code of Conduct</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-menu-item">
+                                    <h4>Leadership Team</h4>
+                                    <ul>
+                                        <li><a href="board Of Directors.html">Board of Directors</a></li>
+                                        <li><a href="board Of Directors.html">Management Team</a></li>
+                                        <!-- <li><a href="board Of Directors.html">LEADERSHIP SPEAKS</a></li> -->
+                                        <li><a href="board Of Directors.html">Chairman & MD</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-menu-item">
+
+                                    <h4>Company Information</h4>
+                                    <ul>
+                                        <li><a href="Investot&Relations.html">Our Shareholders</a></li>
+                                        <li><a href="keyFacts.html">Our Clients</a></li>
+                                        <li><a href="BusinessInformation.html">Press Releases</a></li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="sub-menu-item">
+                                    <img src="img/about-us-banner.png" class="wow zoomIn" data-wow-delay="0.1s">
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#" class="menu-link">
+                                Businesses
+                                <span class="drop-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <div class="sub-menu">
+                                <div class="sub-menu-item">
+                                    <!-- <h4>Consumer Goods</h4>
+                                    <ul>
+                                        <li><a href="FMCG_Products.html">FMCG</a></li>
+                                        <li><a href="cigar&cigrates.html">Cigarettes & Cigars</a></li>
+                                        <li><a href="confectionary.html">Confectionery</a></li>
+                                    </ul> -->
+
+                                    <h4>Unexo Worldwide</h4>
+                                    <ul>
+                                        <li><a href="Group_Companies.html">Group Companies</a></li>
+
+                                    </ul>
+
+                                    <h4 style="font-size: 18px;">Business Verticals</h4>
+
+                                    <h4>Personal Care</h4>
+                                    <ul>
+                                        <li><a href="artificail_Intelligence.html">Bath and Body</a></li>
+                                    </ul>
+
+
+                                </div>
+
+                                <div class="sub-menu-item">
+
+                                    <h4>ICT Technology </h4>
+                                    <ul>
+                                        <li><a href="artificail_Intelligence.html">Technology</a></li>
+                                    </ul>
+
+                                    <h4>Energy Industry</h4>
+                                    <ul>
+                                        <li><a href="artificail_Intelligence.html">Oil and Gas</a></li>
+                                    </ul>
+
+
+                                    <!-- OPERATIONAL JOINT VENTURES -->
+
+                                </div>
+
+                                <div class="sub-menu-item">
+                                    <h4>Hospitality and Food Service</h4>
+                                    <ul>
+                                        <li><a href="Information_Technology.html">Food and Beverages</a></li>
+                                    </ul>
+
+                                    <h4>Financial Market</h4>
+                                    <ul>
+                                        <li><a href="Information_Technology.html">
+                                                Trading</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-menu-item">
+                                    <h4>Consumer Product</h4>
+                                    <ul>
+                                        <li><a href="agri_business.html">Tobacco Products</a></li>
+                                    </ul>
+                                </div>
+
+
+                                <div class="sub-menu-item">
+                                    <img src="img/businesses-banner.png" class="wow zoomIn" data-wow-delay="0.1s">
+                                </div>
+
+                            </div>
+                        </li>
+
+
+
+                        <!-- <li>
+                            <a href="#" class="menu-link">Media Centre</a>
+                        </li> -->
+
+                        <li>
+                            <a href="#" class="menu-link">
+                                Sustainability
+                                <span class="drop-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <div class="sub-menu">
+                                <div class="sub-menu-item">
+                                    <h4 class="h4-link">KEY&nbsp;FACTS&nbsp;ABOUT&nbsp;OTC</h4>
+                                    <h4 class="h4-link">BUSINESS&nbsp;INFORMATION</h4>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <h4 class="h4-link">EVERYDAY&nbsp;STORIES&nbsp;FROM&nbsp;OTC</h4>
+                                    <h4 class="h4-link">OTC&nbsp;IN&nbsp;THE&nbsp;NEWS</h4>
+                                </div>
+
+                                <div class="sub-menu-item">
+                                    <h4 class="h4-link">PRESS&nbsp;RELEASES</h4>
+                                    <h4 class="h4-link">PRESS&nbsp;REPORTS</h4>
+
+                                </div>
+
+                                <div class="sub-menu-item">
+                                    <h4 class="h4-link">OTC&nbsp;NEWSROOM</h4>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <img src="img/media-centre.jpg" class="wow zoomIn" data-wow-delay="0.1s">
+                                </div>
+
+                            </div>
+                        </li>
+
+
+
+                        <!-- <li>
+                            <a href="Investot&Relations.html" class="menu-link">Investor Relations</a>
+                        </li> -->
+
+                        <li>
+                            <a href="careers.html" class="menu-link">Innovation
+                                <span class="drop-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <div class="sub-menu">
+                                <div class="sub-menu-item">
+                                    <h4 class="h4-link">KEY&nbsp;FACTS&nbsp;ABOUT&nbsp;OTC</h4>
+                                    <h4 class="h4-link">BUSINESS&nbsp;INFORMATION</h4>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <h4 class="h4-link">EVERYDAY&nbsp;STORIES&nbsp;FROM&nbsp;OTC</h4>
+                                    <h4 class="h4-link">OTC&nbsp;IN&nbsp;THE&nbsp;NEWS</h4>
+                                </div>
+
+                                <div class="sub-menu-item">
+                                    <h4 class="h4-link">PRESS&nbsp;RELEASES</h4>
+                                    <h4 class="h4-link">PRESS&nbsp;REPORTS</h4>
+
+                                </div>
+
+                                <div class="sub-menu-item">
+                                    <h4 class="h4-link">OTC&nbsp;NEWSROOM</h4>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <img src="img/media-centre.jpg" class="wow zoomIn" data-wow-delay="0.1s">
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="careers.html" class="menu-link">Careers</a>
+                        </li>
+
+                        <li>
+                            <a href="service.html" class="menu-link">Services</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html" class="menu-link">Contact</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 py-5">
+        <div class="container">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
+            <!-- <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                </ol>
+            </nav> -->
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+
+
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section id="services" class="services bgcolor-gray section-common-space">
+        <div class="container">
+            <!-- ========== SECTION HEADER ========== -->
+            <div class="section-header text-center">
+                <h2 class="section-title"><span class="ft-wt-bold">Innovation across diverse sectors</span></h2>
+                <!-- <p class="section-subtitle ft-fm-2">
+                    Innovation across diverse sectors.
+                </p> -->
+            </div> <!-- //section-header -->
+
+            <div class="text-center m-t-120">
+                <div class="row clear-problem">
+                    <!-- EACH FEATURE -->
+                    <div class="col-sm-6 col-md-4">
+                        <div class="features-item">
+                            <div class="features-icon">
+                                <i class="far fa-lightbulb"></i>
+                            </div>
+                            <div class="features-info">
+                                <h4 class="title">UNEXO JOBS</h4>
+                                <p>
+                                    Unexo is a unique platform that provides opportunities for people from all
+                                    backgrounds, regardless of language, education, or job status, to earn a living with
+                                    dignity. It operates nationwide, with facilities in every village council
+                                    (panchayat) and a management team at the state and district levels. Regional
+                                    headquarters, like Dubai, Singapore, New York, Hong Kong, Frankfurt, and Accra,
+                                    oversee operations in various parts of the world. The New York Main Office makes
+                                    important policy decisions for the benefit of members and affiliated groups. Unexo
+                                    operates as a social enterprise, generating profits and sharing earnings with
+                                    society.</p>
+                            </div>
+                        </div> <!-- //features-item -->
+                    </div> <!-- //.col-sm-6 col-md-4 -->
+
+                    <!-- EACH FEATURE -->
+                    <div class="col-sm-6 col-md-4">
+                        <div class="features-item">
+                            <div class="features-icon">
+                                <i class="fas fa-magic"></i>
+                            </div>
+                            <div class="features-info">
+                                <h4 class="title">UNEXO RETAIL</h4>
+                                <p>Retail is online. And we believe in the
+                                    future. Unexo retail is designed for
+                                    the retail industry, with physical
+                                    stores, an single platform for all your
+                                    needs with a choice to choose from
+                                    home, to collect from center or get
+                                    delivered by nearest shop.
+                                    It's different, complete different, we
+                                    can say it's going to be an new age
+                                    platform. We are coming this
+                                    December. </p>
+                            </div>
+                        </div> <!-- //features-item -->
+                    </div> <!-- //.col-sm-6 col-md-4 -->
+
+                    <!-- EACH FEATURE -->
+                    <div class="col-sm-6 col-md-4">
+                        <div class="features-item">
+                            <div class="features-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="features-info">
+                                <h4 class="title">UNEXO ENTERPRISE</h4>
+
+                                <p>Enterprise offers the best platform with zero charges for each entrepreneur for any
+                                    products, it may be grains or it may be industrial
+                                    mchines, it's a revolution to the producer or manufacturers, with
+                                    global opportunity to sell their products. Unexo Enterprise is joint
+                                    venture with Mandex the Market and Exchange. </p>
+                            </div>
+                        </div> <!-- //features-item -->
+                    </div> <!-- //.col-sm-6 col-md-4 -->
+
+                    <!-- EACH FEATURE -->
+                    <div class="col-sm-6 col-md-4">
+                        <div class="features-item m-0 res-m-b-100">
+                            <div class="features-icon">
+                                <i class="fab fa-uikit"></i>
+                            </div>
+                            <div class="features-info">
+                                <h4 class="title">UNEXO PAY</h4>
+                                <p>Unexo pay is our payment platform to minimize and make digital
+                                    payment user friendly with an upgraded facility for digital currency
+                                    for all types of payment activities at almost zero charges and minimal
+                                    fees for the payment services.
+                                    It can be use for any type of financial transactions and can act as
+                                    digtal wallet with zero maintenance charges. </p>
+                            </div>
+                        </div> <!-- //features-item -->
+                    </div> <!-- //.col-sm-6 col-md-4 -->
+
+                    <!-- EACH FEATURE -->
+                    <div class="col-sm-6 col-md-4">
+                        <div class="features-item m-0 res-m-b-100">
+                            <div class="features-icon">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <div class="features-info">
+                                <h4 class="title">UNEXO LIVE</h4>
+                                <p>Call, chat, meet Unexo live is designed for secured call, chat, meet,
+                                    discussion, work, group chat, group calls, without showing the identity or sharing
+                                    the numbers, along with attendance and many other
+                                    facilities for both individual and business as well. We don’t compare
+                                    ourselves with other messaging apps as we are totally a facilities
+                                    prvider with a secure data system and we do not retain the data for
+                                    more than 72 minutes after delivery of the message.</p>
+                            </div>
+                        </div> <!-- //features-item -->
+                    </div> <!-- //.col-sm-6 col-md-4 -->
+
+                    <!-- EACH FEATURE -->
+                    <div class="col-sm-6 col-md-4">
+                        <div class="features-item m-0">
+                            <div class="features-icon">
+                                <i class="fas fa-camera-retro"></i>
+                            </div>
+                            <div class="features-info">
+                                <h4 class="title">UNEXO EDUTECH</h4>
+                                <p>Free education to all.
+                                    Online library, online class,
+                                    skill training, career counselor,
+                                    foreign education, education
+                                    with technology. </p>
+                            </div>
+                        </div> <!-- //features-item -->
+                    </div> <!-- //.col-sm-6 col-md-4 -->
+
+
+
+
+
+
+                </div> <!-- //row -->
+
+            </div>
+        </div> <!-- //container -->
+    </section>
+    <!-- //End services -->
+
+
+
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section id="services" class="services bgcolor-gray section-common-space">
+        <div class="container">
+            <!-- ========== SECTION HEADER ========== -->
+            <div class="section-header text-center">
+                <h2 class="section-title"><span class="ft-wt-bold">Innovation across diverse sectors</span></h2>
+                <!-- <p class="section-subtitle ft-fm-2">
+                    Innovation across diverse sectors.
+                </p> -->
+            </div> <!-- //section-header -->
+
+            <div class="text-center m-t-120">
+                <div class="row clear-problem">
+                    <!-- EACH FEATURE -->
+                    <div class="col-sm-6 col-md-4">
+                        <div class="features-item m-0">
+                            <div class="features-icon">
+                                <i class="fas fa-camera-retro"></i>
+                            </div>
+                            <div class="features-info">
+                                <h4 class="title">UNEXO LOGISTICS</h4>
+                                <p>Unexo Logistics is digital logistic system to provide fastest and
+                                    guaanteed delivery platform through the local to global network. It
+                                    will help people to find the best solution for the delivery of goods at
+                                    the best available opportunities and options.</p>
+                            </div>
+                        </div> <!-- //features-item -->
+                    </div> <!-- //.col-sm-6 col-md-4 -->
+
+
+                    <!-- EACH FEATURE -->
+                    <div class="col-sm-6 col-md-4">
+                        <div class="features-item m-0">
+                            <div class="features-icon">
+                                <i class="fas fa-camera-retro"></i>
+                            </div>
+                            <div class="features-info">
+                                <h4 class="title">UNEXO HOUSING</h4>
+                                <p>Home for all, why people pay rent which never get appreciated,
+                                    unexo housing offers home for all at the place they work.
+                                    This is a platform with mega housing projects offered by only mebers
+                                    facilities with the lowest cost and with all facilities in the single complex, which
+                                    starts at 7,99,999/- * INR . </p>
+                            </div>
+                        </div> <!-- //features-item -->
+                    </div> <!-- //.col-sm-6 col-md-4 -->
+
+                    <!-- EACH FEATURE -->
+                    <div class="col-sm-6 col-md-4">
+                        <div class="features-item m-0">
+                            <div class="features-icon">
+                                <i class="fas fa-camera-retro"></i>
+                            </div>
+                            <div class="features-info">
+                                <h4 class="title">UNEXO COMMUNITY</h4>
+                                <p>Communication, entertainment, living hood, connecting, socialiing
+                                    are being very difficult at present period of time. Unexo community
+                                    is trying to make this easier to communicate and socialize through
+                                    a single platform with family and friends. How about having a close
+                                    group of family only or friends only app where people can share it
+                                    within the circle, not to public. </p>
+                            </div>
+                        </div> <!-- //features-item -->
+                    </div> <!-- //.col-sm-6 col-md-4 -->
+
+
+                    <!-- EACH FEATURE -->
+                    <div class="col-sm-6 col-md-4">
+                        <div class="features-item m-0">
+                            <div class="features-icon">
+                                <i class="fas fa-camera-retro"></i>
+                            </div>
+                            <div class="features-info">
+                                <h4 class="title">UNEXO HEALTHCARE</h4>
+                                <p>The pandemic has taught us the need for an organised healthcare
+                                    system and we are now committed to providing healthcare facilities
+                                    to each individual member through our signature platform – Unexo
+                                    Health.”
+                                    This is designed for members for free to use policy for the members
+                                    With access to all our facilities online. Unexo health offers online appointment,
+                                    consultation, reports, prescription management, insurance and many more to discover.
+                                </p>
+                            </div>
+                        </div> <!-- //features-item -->
+                    </div> <!-- //.col-sm-6 col-md-4 -->
+
+
+
+                    <!-- EACH FEATURE -->
+                    <div class="col-sm-6 col-md-4">
+                        <div class="features-item m-0">
+                            <div class="features-icon">
+                                <i class="fas fa-camera-retro"></i>
+                            </div>
+                            <div class="features-info">
+                                <h4 class="title">UNEXO COMMUNITY</h4>
+                                <p>Communication, entertainment, living hood, connecting, socialiing
+                                    are being very difficult at present period of time. Unexo community
+                                    is trying to make this easier to communicate and socialize through
+                                    a single platform with family and friends. How about having a close
+                                    group of family only or friends only app where people can share it
+                                    within the circle, not to public. </p>
+                            </div>
+                        </div> <!-- //features-item -->
+                    </div> <!-- //.col-sm-6 col-md-4 -->
+
+
+
+                </div> <!-- //row -->
+
+            </div>
+        </div> <!-- //container -->
+    </section>
+    <!-- //End services -->
+
+
+
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>16, Shaw Rd no
+                        02-04<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kin
+                        Building,
+                        Singapore</p>
+                    <!-- <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p> -->
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@unexogroup.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="">Drain Cleaning</a>
+                    <a class="btn btn-link" href="">Sewer Line</a>
+                    <a class="btn btn-link" href="">Water Heating</a>
+                    <a class="btn btn-link" href="">Toilet Cleaning</a>
+                    <a class="btn btn-link" href="">Broken Pipe</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Popular Links</h4>
+                    <a class="btn btn-link" href="">Drain Cleaning</a>
+                    <a class="btn btn-link" href="">Sewer Line</a>
+                    <a class="btn btn-link" href="">Water Heating</a>
+                    <a class="btn btn-link" href="">Toilet Cleaning</a>
+                    <a class="btn btn-link" href="">Broken Pipe</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+
+                    <!-- <h1 class="text-primary m-0"><img src="img/ulogo1-removebg-preview.png" alt=""
+                            class="mb-3  footer-logo">
+                    </h1> -->
+
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Discover Exclusive Insights and More!</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">UNEXO GROUP</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="http://crystal-software.in/#">Crystal Sofware</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+        const element = document.getElementById("carousel-972345870");
+        DDS.Carousel(element);
+
+    </script>
+
+
+
+</body>
+
+</html>
